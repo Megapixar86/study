@@ -1,0 +1,34 @@
+.wr {
+	display: block;
+}
+.wrap {
+	background-color: aqua;
+	display: block;
+}
+.cub {
+	display: inline-block;
+	background-color: chocolate;
+	height: 200px;
+	width: 200px;
+	margin: 2px;
+	border-radius: 10px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px;
+}
+.progres {
+	display: block;
+	width: 150px;
+	height: 150px;
+	background-image:
+    radial-gradient(
+      circle,
+      #222 0% 27%,
+      transparent 28% 50%,
+      #222 51%
+    ),
+    conic-gradient(
+      #D64E42 0% 60%,
+      transparent 60%
+    );
+}

@@ -1,0 +1,2 @@
+(()=>{"use strict";document.getElementById("cub");const e=e=>document.getElementsByClassName(e);for(let t=0;t<5;t++){const n=e("cub")[t],o=n.cloneNode(!0);e("wrap")[0].insertBefore(o,n)}let t=document.querySelector("div.cub");t.innerHTML="<a href='./page1.html'>Page1</a>",console.log(t.innerText)})();
+//# sourceMappingURL=bundle.99491ad81fa56074.js.map
