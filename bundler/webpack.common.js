@@ -31,13 +31,13 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, '../src/main/index.html'),
 			filename: 'index.html',
-			chunk: ['main'],
+			chunks: ['main'],
             minify: true,
         }),
 		new HtmlWebpackPlugin({
             template: path.resolve(__dirname, '../src/page1/page1.html'),
 			filename: 'page1.html',
-			chunk: ['page1'],
+			chunks: ['page1'],
             minify: true,
         }),
         new MiniCSSExtractPlugin({
